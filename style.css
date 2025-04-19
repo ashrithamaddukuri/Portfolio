@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    
+    margin-bottom: 1rem;
+}
+
+h1 {
+     text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(90deg, #4CAF50, #007BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+     text-align: center;
+    font-size: 2.2rem;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+h3{
+text-align: left;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin:0; /* Adds some space between the links */
+    padding:0;
+line-height: 1;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+table {
+            width: 70%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+.btn {
+    background: linear-gradient(to right, #4CAF50, #007BFF);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #45a049, #0056b3);
+}
+
+.skills-container, .project {
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
