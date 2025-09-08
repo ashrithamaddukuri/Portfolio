@@ -1,0 +1,129 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #0d47a1;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Section Headers */
+section h2 {
+    text-align: center;
+    color: #1976d2;
+    margin: 30px 0 10px;
+    font-size: 2em;
+    border-bottom: 2px solid #1976d2;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Project Titles */
+h3 {
+    margin-top: 15px;
+    color: #0d47a1;
+}
+
+/* Links */
+a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+    transition: transform 0.2s;
+}
+
+a:hover {
+    transform: scale(1.05);
+    color: #0d47a1;
+}
+
+/* Button Style */
+.btn {
+    display: inline-block;
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px auto;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0d47a1;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    section h2 {
+        font-size: 1.5em;
+    }
+    table th, table td {
+        font-size: 0.9em;
+    }
+}
